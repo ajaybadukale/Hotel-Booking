@@ -2,6 +2,7 @@
     <element db_object_id="ade368e083a3ea10b43631b6feaad366" label="Hotel List" max_length="40" name="x_1447230_hotel_bo_hotel_list" type="collection">
         <element label="From (Date)" mandatory="true" max_length="40" name="from_date" type="calendar_date_time"/>
         <element label="Till (Date)" max_length="40" name="till_date" type="calendar_date_time"/>
+        <element label="number of people" max_length="80" name="number_of_people" type="field_name"/>
         <element label="Hotel Name" mandatory="true" max_length="80" name="hotel_name" type="field_name"/>
         <element label="City" mandatory="true" max_length="80" name="city" type="field_name"/>
     </element>
